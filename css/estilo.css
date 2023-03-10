@@ -1,0 +1,137 @@
+body{
+    background-image:url(/imgs/the-next-castlevania-game-is-coming-to-android-and-ios-devices-15687949050641375229279.jpg);
+    background-repeat: no-repeat;
+    background-size: 1150pt 570pt;
+    background-attachment: fixed;
+
+}
+h1{
+    color: rgb(212, 212, 27);
+    background-color: rgb(231, 41, 41);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+h2{
+    color: rgb(150, 162, 58);
+    text-align: center;
+    font-size: 2em;
+    background-color: black;
+    font-family: fantasy;
+    border-radius: 100%;
+    object-fit: cover;
+}
+h3{
+    color: aquamarine;
+    background-color:rgb(107, 9, 9);
+    text-align: center;
+}
+h4{
+    color: rgb(231, 236, 79);
+    background-color: rgb(96, 23, 164);
+}
+label{
+    color: brown;
+    background-color: black;
+    font-size: 2em;
+    flex: auto;
+    text-align: center;
+}
+select{
+    color: brown;
+    background-color: black;
+    font-size: 2em;
+}
+
+.container{
+    width: 90%;
+    min-height: 100vh;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.slider{
+    background-color: rgba(5, 3, 55, 0.411);
+    padding: 40px 0;
+}
+.slider_container{
+    display: grid;
+    grid-template-columns: 50px 1fr 50px;
+    align-items: center;
+    gap: 1em;
+}
+
+.slider_body{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    opacity: 0;
+    pointer-events: none;
+    display: grid;
+    background-color: rgb(53, 52, 52);
+    grid-template-columns: 1fr max-content;
+    align-items: center;
+    transition: opaci;
+}
+
+.slider_body--show{
+    opacity: 1;
+    pointer-events: unset;
+}
+.slider_texts{
+    max-width: 600px;
+}
+.subtitle{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+.slider_review{
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 1.7;
+    text-align: center;
+    color: aliceblue;
+}
+
+.slider_img{
+    width: 100px;
+    height: 190px;
+    border-radius: 0%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+
+.slider_arrow{
+    cursor: pointer;
+    width: 90%;
+}
+
+.slider_arrow:nth-of-type(2){
+    justify-self: end;
+}
+table{
+    position: relative;
+    align-content: center;
+    color: aliceblue;
+    background-color: black;
+}
+header{
+    width: 100%;
+    color: beige;
+    background-color: brown;
+    position: fixed;
+    top: 0;
+    display: flex;
+    font-family: cursive;
+}
+.itm{
+    scroll-margin-top: 4ex;
+}
+nav a{
+    margin-right: 80px;
+    text-decoration: none;
+    color: black;
+}
+nav a:hover{
+    color: rgb(238, 228, 228);
+}
